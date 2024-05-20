@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_freeplay.png">
+<SubTexture name="basic0000" x="0" y="0" width="442" height="118" frameX="-21" frameY="-293" frameWidth="520" frameHeight="720" />
+<SubTexture name="basic0001" x="0" y="118" width="434" height="124" frameX="-22" frameY="-285" frameWidth="520" frameHeight="720" />
+<SubTexture name="basic0002" x="0" y="242" width="415" height="131" frameX="-25" frameY="-279" frameWidth="520" frameHeight="720" />
+<SubTexture name="basic0003" x="0" y="373" width="427" height="137" frameX="-21" frameY="-274" frameWidth="520" frameHeight="720" />
+<SubTexture name="basic0004" x="0" y="510" width="437" height="128" frameX="-22" frameY="-286" frameWidth="520" frameHeight="720" />
+<SubTexture name="white0000" x="0" y="638" width="442" height="118" frameX="-21" frameY="-293" frameWidth="520" frameHeight="720" />
+<SubTexture name="white0001" x="0" y="756" width="434" height="124" frameX="-22" frameY="-285" frameWidth="520" frameHeight="720" />
+<SubTexture name="white0002" x="0" y="880" width="415" height="131" frameX="-25" frameY="-279" frameWidth="520" frameHeight="720" />
+<SubTexture name="white0003" x="0" y="1011" width="427" height="137" frameX="-21" frameY="-274" frameWidth="520" frameHeight="720" />
+<SubTexture name="white0004" x="0" y="1148" width="437" height="128" frameX="-22" frameY="-286" frameWidth="520" frameHeight="720" />
+</TextureAtlas>

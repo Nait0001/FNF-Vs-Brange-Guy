@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="brangefreak.png">
+<SubTexture name="d0000" x="0" y="0" width="418" height="338" frameX="-101" frameY="-254" frameWidth="626" frameHeight="638" />
+<SubTexture name="d0001" x="418" y="0" width="408" height="415" frameX="-116" frameY="-168" frameWidth="626" frameHeight="638" />
+<SubTexture name="i0000" x="826" y="0" width="396" height="472" frameX="-127" frameY="-104" frameWidth="626" frameHeight="626" />
+<SubTexture name="r0000" x="0" y="472" width="370" height="451" frameX="-105" frameY="-114" frameWidth="626" frameHeight="626" />
+<SubTexture name="r0001" x="370" y="472" width="389" height="423" frameX="-122" frameY="-117" frameWidth="626" frameHeight="626" />
+<SubTexture name="l0000" x="759" y="472" width="472" height="406" frameX="-130" frameY="-121" frameWidth="626" frameHeight="626" />
+<SubTexture name="l0001" x="0" y="923" width="457" height="436" frameX="-109" frameY="-103" frameWidth="626" frameHeight="626" />
+<SubTexture name="u0000" x="457" y="923" width="266" height="508" frameX="-198" frameY="-42" frameWidth="628" frameHeight="640" />
+<SubTexture name="u0001" x="723" y="923" width="304" height="493" frameX="-166" frameY="-72" frameWidth="628" frameHeight="640" />
+<SubTexture name="coisa0000" x="0" y="1431" width="299" height="234" frameX="0" frameY="0" frameWidth="259" frameHeight="194" />
+</TextureAtlas>

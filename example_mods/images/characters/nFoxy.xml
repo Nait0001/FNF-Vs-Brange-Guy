@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nFoxy.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fd0000" x="39" y="39" width="1010" height="539" frameX="0" frameY="-202" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0001" x="39" y="39" width="1010" height="539" frameX="0" frameY="-202" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0002" x="1079" y="39" width="797" height="700" frameX="-107" frameY="-56" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0003" x="1079" y="39" width="797" height="700" frameX="-107" frameY="-56" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0004" x="1906" y="39" width="715" height="744" frameX="-148" frameY="-17" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0005" x="1906" y="39" width="715" height="744" frameX="-148" frameY="-17" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0006" x="2651" y="39" width="690" height="755" frameX="-160" frameY="-7" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0007" x="2651" y="39" width="690" height="755" frameX="-160" frameY="-7" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0008" x="3371" y="39" width="678" height="762" frameX="-166" frameY="0" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fd0009" x="3371" y="39" width="678" height="762" frameX="-166" frameY="0" frameWidth="1010" frameHeight="762"/>
+	<SubTexture name="fi0000" x="39" y="831" width="673" height="754" frameX="0" frameY="-101" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0001" x="39" y="831" width="673" height="754" frameX="0" frameY="-101" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0002" x="742" y="831" width="556" height="832" frameX="-32" frameY="-25" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0003" x="742" y="831" width="556" height="832" frameX="-32" frameY="-25" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0004" x="1328" y="831" width="505" height="850" frameX="-63" frameY="-7" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0005" x="1328" y="831" width="505" height="850" frameX="-63" frameY="-7" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0006" x="1863" y="831" width="499" height="858" frameX="-69" frameY="0" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0007" x="1863" y="831" width="499" height="858" frameX="-69" frameY="0" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0008" x="1863" y="831" width="499" height="858" frameX="-69" frameY="0" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fi0009" x="1863" y="831" width="499" height="858" frameX="-69" frameY="0" frameWidth="673" frameHeight="858"/>
+	<SubTexture name="fl0000" x="2392" y="831" width="1002" height="997"/>
+	<SubTexture name="fl0001" x="2392" y="831" width="1002" height="997"/>
+	<SubTexture name="fl0002" x="39" y="1858" width="867" height="947" frameX="-127" frameY="-44" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0003" x="39" y="1858" width="867" height="947" frameX="-127" frameY="-44" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0004" x="936" y="1858" width="796" height="931" frameX="-195" frameY="-59" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0005" x="936" y="1858" width="796" height="931" frameX="-195" frameY="-59" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0006" x="1762" y="1858" width="776" height="922" frameX="-214" frameY="-67" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0007" x="1762" y="1858" width="776" height="922" frameX="-214" frameY="-67" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0008" x="1762" y="1858" width="776" height="922" frameX="-214" frameY="-67" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0009" x="1762" y="1858" width="776" height="922" frameX="-214" frameY="-67" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fl0010" x="1762" y="1858" width="776" height="922" frameX="-214" frameY="-67" frameWidth="1002" frameHeight="997"/>
+	<SubTexture name="fr0000" x="2568" y="1858" width="793" height="720" frameX="0" frameY="-22" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0001" x="2568" y="1858" width="793" height="720" frameX="0" frameY="-22" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0002" x="39" y="2835" width="779" height="705" frameX="-4" frameY="-36" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0003" x="39" y="2835" width="779" height="705" frameX="-4" frameY="-36" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0004" x="848" y="2835" width="699" height="735" frameX="-11" frameY="-8" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0005" x="848" y="2835" width="699" height="735" frameX="-11" frameY="-8" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0006" x="1577" y="2835" width="668" height="744" frameX="-14" frameY="0" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0007" x="1577" y="2835" width="668" height="744" frameX="-14" frameY="0" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0008" x="1577" y="2835" width="668" height="744" frameX="-14" frameY="0" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0009" x="1577" y="2835" width="668" height="744" frameX="-14" frameY="0" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fr0010" x="1577" y="2835" width="668" height="744" frameX="-14" frameY="0" frameWidth="793" frameHeight="744"/>
+	<SubTexture name="fu0000" x="2275" y="2835" width="165" height="1104" frameX="-98" frameY="0" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0001" x="2275" y="2835" width="165" height="1104" frameX="-98" frameY="0" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0002" x="2470" y="2835" width="294" height="1022" frameX="-34" frameY="-80" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0003" x="2470" y="2835" width="294" height="1022" frameX="-34" frameY="-80" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0004" x="2794" y="2835" width="348" height="990" frameX="-7" frameY="-112" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0005" x="2794" y="2835" width="348" height="990" frameX="-7" frameY="-112" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0006" x="3172" y="2835" width="362" height="983" frameX="0" frameY="-119" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0007" x="3172" y="2835" width="362" height="983" frameX="0" frameY="-119" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0008" x="3172" y="2835" width="362" height="983" frameX="0" frameY="-119" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0009" x="3172" y="2835" width="362" height="983" frameX="0" frameY="-119" frameWidth="362" frameHeight="1104"/>
+	<SubTexture name="fu0010" x="3172" y="2835" width="362" height="983" frameX="0" frameY="-119" frameWidth="362" frameHeight="1104"/>
+</TextureAtlas>

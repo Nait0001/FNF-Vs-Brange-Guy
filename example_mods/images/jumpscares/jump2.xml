@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jump2.png">
+<SubTexture name="jump20000" x="0" y="0" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20001" x="320" y="0" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20002" x="0" y="208" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20003" x="320" y="208" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20004" x="0" y="416" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20005" x="320" y="416" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20006" x="0" y="624" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20007" x="320" y="0" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20008" x="320" y="624" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20009" x="0" y="832" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+<SubTexture name="jump20010" x="320" y="416" width="320" height="208" frameX="0" frameY="0" frameWidth="320" frameHeight="208" />
+</TextureAtlas>

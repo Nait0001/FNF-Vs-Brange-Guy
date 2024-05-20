@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-232
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bi",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-117
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bu",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				155,
+				8
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "br",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				138,
+				-361
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bd",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				291,
+				-270
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bl",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/boni",
+	"position": [
+		50,
+		-390
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-40,
+		260
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

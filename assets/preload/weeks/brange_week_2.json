@@ -1,0 +1,77 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"lore",
+			"yeah",
+			[
+				255,
+				153,
+				0
+			]
+		],
+		[
+			"blubber",
+			"nerd",
+			[
+				86,
+				113,
+				253
+			]
+		],
+		[
+			"bite",
+			"bf",
+			[
+				255,
+				93,
+				0
+			]
+		],
+		[
+			"beatbox",
+			"manoel",
+			[
+				226,
+				255,
+				155
+			]
+		],
+		[
+			"man",
+			"raluca",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"zuera",
+			"fright",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

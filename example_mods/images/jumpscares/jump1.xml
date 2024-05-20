@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jump1.png">
+<SubTexture name="jump10000" x="0" y="0" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10001" x="1024" y="0" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10002" x="2048" y="0" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10003" x="3072" y="0" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10004" x="0" y="768" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10005" x="1024" y="768" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10006" x="2048" y="768" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10007" x="3072" y="768" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10008" x="0" y="1536" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10009" x="1024" y="1536" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10010" x="2048" y="1536" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10011" x="3072" y="1536" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10012" x="0" y="2304" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10013" x="1024" y="2304" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10014" x="2048" y="2304" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10015" x="3072" y="2304" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10016" x="0" y="3072" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10017" x="1024" y="3072" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10018" x="2048" y="3072" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10019" x="3072" y="3072" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10020" x="0" y="3840" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+<SubTexture name="jump10021" x="1024" y="3840" width="1024" height="768" frameX="0" frameY="0" frameWidth="1024" frameHeight="768" />
+</TextureAtlas>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf-stand.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceLeft0000" x="0" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0001" x="0" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0002" x="700" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0003" x="700" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0004" x="1400" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0005" x="1400" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0006" x="2100" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0007" x="2100" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0008" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0009" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0010" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0011" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0012" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceLeft0013" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0000" x="0" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0001" x="0" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0002" x="700" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0003" x="700" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0004" x="1400" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0005" x="1400" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0006" x="2100" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0007" x="2100" y="700" width="700" height="700"/>
+	<SubTexture name="danceRight0008" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0009" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0010" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0011" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0012" x="2800" y="0" width="700" height="700"/>
+	<SubTexture name="danceRight0013" x="2800" y="0" width="700" height="700"/>
+</TextureAtlas>

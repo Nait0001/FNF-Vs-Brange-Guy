@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-19,
+				-232
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "i"
+		},
+		{
+			"offsets": [
+				-22,
+				-192
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "u"
+		},
+		{
+			"offsets": [
+				-19,
+				-248
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "d"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-238
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-231
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				-510
+			],
+			"anim": "hey",
+			"fps": 12,
+			"name": "coisa",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/brangefreak",
+	"position": [
+		-250,
+		-110
+	],
+	"healthicon": "ok",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		114,
+		0
+	],
+	"camera_position": [
+		10,
+		210
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

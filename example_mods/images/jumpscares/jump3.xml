@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jump3.png">
+<SubTexture name="jump30000" x="0" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30001" x="640" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30002" x="1280" y="0" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30003" x="0" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30004" x="640" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30005" x="1280" y="480" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30006" x="0" y="960" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30007" x="640" y="960" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30008" x="1280" y="960" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30009" x="0" y="1440" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30010" x="640" y="1440" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30011" x="1280" y="1440" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30012" x="0" y="1920" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30013" x="640" y="1920" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30014" x="1280" y="1920" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+<SubTexture name="jump30015" x="0" y="2400" width="640" height="480" frameX="0" frameY="0" frameWidth="640" frameHeight="480" />
+</TextureAtlas>

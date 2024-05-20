@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="red.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="redshit0000" x="30" y="30" width="1492" height="1177"/>
+	<SubTexture name="redshit0001" x="1552" y="30" width="1477" height="1162" frameX="-10" frameY="-10" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0002" x="3059" y="30" width="1464" height="1150" frameX="-19" frameY="-18" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0003" x="4553" y="30" width="1451" height="1137" frameX="-27" frameY="-27" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0004" x="6034" y="30" width="1436" height="1122" frameX="-37" frameY="-36" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0005" x="30" y="1237" width="1422" height="1110" frameX="-46" frameY="-44" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0006" x="1482" y="1237" width="1410" height="1097" frameX="-54" frameY="-53" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0007" x="2922" y="1237" width="1394" height="1082" frameX="-64" frameY="-62" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0008" x="4346" y="1237" width="1381" height="1070" frameX="-72" frameY="-70" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0009" x="5757" y="1237" width="1368" height="1057" frameX="-81" frameY="-79" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0010" x="30" y="2377" width="1352" height="1042" frameX="-91" frameY="-88" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0011" x="1412" y="2377" width="1340" height="1030" frameX="-99" frameY="-96" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0012" x="2782" y="2377" width="1326" height="1017" frameX="-108" frameY="-105" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0013" x="4138" y="2377" width="1312" height="1002" frameX="-117" frameY="-114" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0014" x="5480" y="2377" width="1298" height="990" frameX="-126" frameY="-122" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0015" x="6808" y="2377" width="1285" height="977" frameX="-135" frameY="-131" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0016" x="30" y="3449" width="1270" height="962" frameX="-144" frameY="-140" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0017" x="1330" y="3449" width="1256" height="949" frameX="-153" frameY="-148" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0018" x="2616" y="3449" width="1244" height="937" frameX="-161" frameY="-157" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0019" x="3890" y="3449" width="1228" height="922" frameX="-171" frameY="-166" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0020" x="5148" y="3449" width="1244" height="937" frameX="-161" frameY="-157" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0021" x="6422" y="3449" width="1256" height="950" frameX="-153" frameY="-148" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0022" x="30" y="4441" width="1270" height="962" frameX="-144" frameY="-140" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0023" x="6808" y="2377" width="1285" height="977" frameX="-135" frameY="-131" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0024" x="5480" y="2377" width="1298" height="990" frameX="-126" frameY="-122" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0025" x="1330" y="4441" width="1312" height="1002" frameX="-117" frameY="-114" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0026" x="2672" y="4441" width="1326" height="1017" frameX="-108" frameY="-105" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0027" x="4028" y="4441" width="1340" height="1030" frameX="-99" frameY="-96" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0028" x="5398" y="4441" width="1352" height="1042" frameX="-91" frameY="-88" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0029" x="6780" y="4441" width="1368" height="1057" frameX="-81" frameY="-79" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0030" x="4346" y="1237" width="1381" height="1070" frameX="-72" frameY="-70" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0031" x="30" y="5528" width="1394" height="1082" frameX="-64" frameY="-62" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0032" x="1482" y="1237" width="1410" height="1097" frameX="-54" frameY="-53" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0033" x="30" y="1237" width="1422" height="1110" frameX="-45" frameY="-44" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0034" x="1454" y="5528" width="1436" height="1122" frameX="-37" frameY="-36" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0035" x="4553" y="30" width="1451" height="1137" frameX="-27" frameY="-26" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0036" x="2920" y="5528" width="1464" height="1150" frameX="-19" frameY="-18" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0037" x="4414" y="5528" width="1477" height="1162" frameX="-10" frameY="-10" frameWidth="1492" frameHeight="1177"/>
+	<SubTexture name="redshit0038" x="30" y="30" width="1492" height="1177"/>
+</TextureAtlas>

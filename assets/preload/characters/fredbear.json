@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "fbi"
+		},
+		{
+			"offsets": [
+				690,
+				80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "fbl"
+		},
+		{
+			"offsets": [
+				200,
+				-150
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "fbd"
+		},
+		{
+			"offsets": [
+				7,
+				316
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "fbu"
+		},
+		{
+			"offsets": [
+				188,
+				138
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "fbr"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fredbear",
+	"position": [
+		0,
+		-260
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-140,
+		10
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

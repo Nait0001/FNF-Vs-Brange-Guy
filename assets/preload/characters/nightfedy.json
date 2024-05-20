@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "fi"
+		},
+		{
+			"offsets": [
+				790,
+				150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "fl"
+		},
+		{
+			"offsets": [
+				150,
+				-350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "fd"
+		},
+		{
+			"offsets": [
+				-93,
+				326
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "fu"
+		},
+		{
+			"offsets": [
+				-162,
+				48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "fr"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nightfedy",
+	"position": [
+		40,
+		-100
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-250,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

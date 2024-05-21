@@ -230,6 +230,8 @@ class MainMenuState extends MusicBeatState
 										WeekData.reloadWeekFiles(false); // Ainda n entendo pq crasha quando eu coloco true aq
 										PlayState.isStoryMode = true;
 
+										Difficulty.resetList();
+
 										trace(WeekData.weeksList);
 
 										var songArray = [];
@@ -241,8 +243,9 @@ class MainMenuState extends MusicBeatState
 										PlayState.storyPlaylist = songArray;
 										PlayState.campaignScore = 0;
 										PlayState.campaignMisses = 0;
+										PlayState.storyDifficulty = 0;
 								
-										PlayState.SONG = backend.Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + '-hard', PlayState.storyPlaylist[0].toLowerCase());
+										PlayState.SONG = backend.Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + Difficulty.getFilePath(), PlayState.storyPlaylist[0].toLowerCase());
 										LoadingState.loadAndSwitchState(new PlayState(), true);
 										FreeplayState.destroyFreeplayVocals();	
 								

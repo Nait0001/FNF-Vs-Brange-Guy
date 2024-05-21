@@ -1,10 +1,12 @@
 package backend;
 
+
 import flixel.util.FlxGradient;
 import flixel.math.FlxPoint;
 
 class CustomFadeTransition extends MusicBeatSubstate {
 	public static var finishCallback:Void->Void;
+	public static var creditIcons:Bool = false;
 	public static var nextCamera:FlxCamera;
 	var stickerGroup:FlxSpriteGroup;
 	var isTransIn:Bool = false;
@@ -17,15 +19,19 @@ class CustomFadeTransition extends MusicBeatSubstate {
 	];
 	var timerSticks:FlxTimer = null;
 	var excuses:Array<Array<Float>> = [];
+	var durationTween:Float = 0;
 	
 	private var leTween:FlxTween = null;
 	var transBlack:FlxSprite;
 	var transGradient:FlxSprite;
 	public function new(duration:Float, isTransIn:Bool, gradientTrans:Bool = false) {
 		super();
+		this.durationTween = duration;
 		this.isTransIn = isTransIn;
 		this.gradientTrans = gradientTrans;
 
+		if (!creditIcons)
+			creditIcons = FlxG.random.bool(5);
 
 		if (!gradientTrans)
 		{
@@ -40,7 +46,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 			timerSticks = new FlxTimer().start(stickerPerTime, function(timer:FlxTimer){
 				// isTransIn - close
 				if (!isTransIn){
-					createSticker(10);
+					createSticker(10, duration/2);
 
 					if (stickerGroup.length < stickerTimes)
 						timerSticks.reset(stickerPerTime);
@@ -105,20 +111,40 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		nextCamera = null;
 	}
 
-	function createSticker(times = 1){
+	function createSticker(times:Int = 1, tweenTime:Float = 0.5){
 		FlxG.sound.play(Paths.sound("keys/keyClick" + FlxG.random.int(1, 9)));
 		for (t in 0...times){
 			var id_sprites:Int = stickerGroup.length - 1;
 			var stickerscale = 0.5;
 
+			var randown_sticker = "stickers/" + stickerSprites[FlxG.random.int(0, stickerSprites.length-1)] + "Sticker" + FlxG.random.int(1, 3);
+
+			if (creditIcons){
+				var cred = states.CreditsState.creditsStuff;
+				if (cred.length > 1){
+					var stickerCredits = [];
+					for (i in 0...cred.length){
+						if (cred[i].length > 2) stickerCredits.push(cred[i][1]);
+						if (cred[i][0] == 'Psych Engine Team') break; 
+						// Sem ofensas so queria q fosse so os devs pra combinar mais
+					} 
+					
+					stickerscale = 1;
+					randown_sticker = 'credits/' + stickerCredits[FlxG.random.int(0, stickerCredits.length-1)];
+				}
+			}
+
+
 			if (id_sprites < 0) id_sprites = 0; 
 
 			var sticker:FlxSprite = new FlxSprite();
-			sticker.loadGraphic(Paths.image("stickers/" + stickerSprites[FlxG.random.int(0, stickerSprites.length-1)] + "Sticker" + FlxG.random.int(1, 3)));
+			sticker.loadGraphic(Paths.image(randown_sticker));
 
-			sticker.setGraphicSize(Std.int(sticker.width * stickerscale));
+			sticker.setGraphicSize(Std.int(sticker.width * (stickerscale + 0.2)));
 			sticker.updateHitbox();
 			sticker.ID = id_sprites;
+
+			FlxTween.tween(sticker.scale, {x: stickerscale, y: stickerscale}, 0.5, {ease: FlxEase.backOut});
 		
 			var randownPos = new FlxPoint(0,0);
 
@@ -150,7 +176,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		}
 	}
 
-	function deleteStickers(times:Int = 1){
+	function deleteStickers(times:Int = 1, ?duration:Float = 0.7){
 		FlxG.sound.play(Paths.sound("keys/keyClick" + FlxG.random.int(1, 9)));
 		for (t in 0...times){
 			if (isTransIn && stickerGroup != null){
@@ -160,7 +186,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 						if (spr.ID == stickerGroup.maxSize - stickerGroup.length){
 							spr.kill();
 							stickerGroup.remove(spr, true);
-							spr.destroy();
+							spr.destroy();									
 						}
 					});
 				}
@@ -179,8 +205,10 @@ class CustomFadeTransition extends MusicBeatSubstate {
 		if (!gradientTrans)
 		{
 			if (deleteSprites){
-				deleteStickers(10);
+				deleteStickers(10, durationTween);
 			}
+
+			stickerGroup.forEachAlive(function(spr:FlxSprite) spr.centerOrigin() );
 		}
 		else
 		{
@@ -212,6 +240,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 			stickerGroup.kill();
 			stickerGroup.clear();
 			stickerGroup.destroy();
+			creditIcons = false;
 
 			// if (finishCallback != null) finishCallback();
 		}

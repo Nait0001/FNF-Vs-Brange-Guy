@@ -7,7 +7,7 @@ import lime.app.Application;
 class DiscordClient
 {
 	public static var isInitialized:Bool = false;
-	private static var _defaultID:String = "863222024192262205";
+	private static var _defaultID:String = "1242259316740849695";
 	public static var clientID(default, set):String = _defaultID;
 
 	private static var _options:Dynamic = {
@@ -108,7 +108,7 @@ class DiscordClient
 		isInitialized = true;
 	}
 
-	public static function changePresence(details:String, state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+	public static function changePresence(details:String, state:Null<String>, ?largeImageKey : String = 'icon', ?hasStartTimestamp : Bool, ?endTimestamp: Float)
 	{
 		var startTimestamp:Float = 0;
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
@@ -116,9 +116,9 @@ class DiscordClient
 
 		_options.details = details;
 		_options.state = state;
-		_options.largeImageKey = 'icon';
+		_options.largeImageKey = largeImageKey;
 		_options.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
-		_options.smallImageKey = smallImageKey;
+		_options.smallImageKey = (_options.largeImageKey == 'icon') ? null : 'icon';
 		// Obtained times are in milliseconds so they are divided so Discord can use it
 		_options.startTimestamp = Std.int(startTimestamp / 1000);
 		_options.endTimestamp = Std.int(endTimestamp / 1000);

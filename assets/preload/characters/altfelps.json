@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				-20,
+				-22,
 				-232
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "i"
+			"fps": 24,
+			"name": "i",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				97,
 				18
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "u"
+			"fps": 24,
+			"name": "u",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-71,
 				-231
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "r"
+			"fps": 24,
+			"name": "r",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				-458
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "d"
+			"fps": 24,
+			"name": "d",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				275,
 				-258
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "l"
+			"fps": 24,
+			"name": "l",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				290,
 				-470
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle-alt",
-			"loop": false,
-			"name": "alt"
+			"fps": 24,
+			"name": "alt",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -73,12 +73,12 @@
 		250,
 		-170
 	],
-	"healthicon": "face",
+	"healthicon": "felps",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		237,
+		49,
+		121
 	],
 	"camera_position": [
 		70,

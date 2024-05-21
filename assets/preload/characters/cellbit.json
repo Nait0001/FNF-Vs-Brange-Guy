@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-20,
-				-232
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "i"
-		},
-		{
 			"offsets": [
 				-13,
 				-12
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "u"
+			"fps": 24,
+			"name": "u",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-61,
 				-231
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "r"
+			"fps": 24,
+			"name": "r",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				30,
 				-438
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "d"
+			"fps": 24,
+			"name": "d",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				315,
 				-228
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
+			"fps": 24,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-232
+			],
 			"indices": [],
-			"name": "l"
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "i"
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		110,
 		-110
 	],
-	"healthicon": "face",
+	"healthicon": "cellbit",
 	"flip_x": true,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		91,
+		255,
+		62
 	],
 	"camera_position": [
 		130,

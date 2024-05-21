@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-20,
 				-232
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "bi",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "bi"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				7,
 				-117
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "bu",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "bu"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				155,
 				8
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "br",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "br"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				138,
 				-361
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "bd",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bd"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				291,
 				-270
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "bl",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bl"
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		50,
 		-390
 	],
-	"healthicon": "face",
+	"healthicon": "bonnie",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		63,
+		107,
+		183
 	],
 	"camera_position": [
 		-40,

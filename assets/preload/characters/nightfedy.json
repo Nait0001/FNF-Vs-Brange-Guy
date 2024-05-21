@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "fi"
+			"fps": 24,
+			"name": "fi",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				790,
 				150
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "fl"
+			"fps": 24,
+			"name": "fl",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				150,
 				-350
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "fd"
+			"fps": 24,
+			"name": "fd",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-93,
 				326
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "fu"
+			"fps": 24,
+			"name": "fu",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-162,
 				48
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "fr"
+			"fps": 24,
+			"name": "fr",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		40,
 		-100
 	],
-	"healthicon": "face",
+	"healthicon": "freddy",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		138,
+		49,
+		61
 	],
 	"camera_position": [
 		-250,

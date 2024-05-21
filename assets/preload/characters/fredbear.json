@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "fbi"
+			"fps": 24,
+			"name": "fbi",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				690,
 				80
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "fbl"
+			"fps": 24,
+			"name": "fbl",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				200,
+				202,
 				-150
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "fbd"
+			"fps": 24,
+			"name": "fbd",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				7,
 				316
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "fbu"
+			"fps": 24,
+			"name": "fbu",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				188,
 				138
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "fbr"
+			"fps": 24,
+			"name": "fbr",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		0,
 		-260
 	],
-	"healthicon": "face",
+	"healthicon": "fredbear",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		215,
+		159,
+		55
 	],
 	"camera_position": [
 		-140,

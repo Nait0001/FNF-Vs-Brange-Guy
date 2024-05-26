@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "u",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-61,
+				-231
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-438
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "d",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				315,
+				-228
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "l",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-232
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "i"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cellbo",
+	"position": [
+		110,
+		-110
+	],
+	"healthicon": "cellbit",
+	"flip_x": true,
+	"healthbar_colors": [
+		91,
+		255,
+		62
+	],
+	"camera_position": [
+		130,
+		280
+	],
+	"sing_duration": 5.89999999999999,
+	"scale": 1
+}

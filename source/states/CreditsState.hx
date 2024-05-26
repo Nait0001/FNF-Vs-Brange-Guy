@@ -52,7 +52,7 @@ class CreditsState extends MusicBeatState
 			['Dort',				'Dort',				'Director and Composer\n$"i made all songs in mobile :3"$',															'https://twitter.com/SillyAkaDort',								'00FFD4'],
 			['Migueell',			'Migueell',			'Co director and Migueell',																							'https://twitter.com/MigueellMouse',							'ffe600'],
 			['Boboa',				'Boboa',			'Artist, Animator and Lua Coder\n$"yippiee :3"$',																		'https://twitter.com/bobolinhas9',								'372B52'],
-			['O626',				'626',				'Artist\n$"VlackGuyIsNice!"$',																						'https://twitter.com/O_626',									'ff7300'],
+			['O626',				'626',				'Artist and Animator\n$"VlackGuyIsNice!"$',																						'https://twitter.com/O_626',									'ff7300'],
 			['Nait',				'nati',				'Haxe Coder\n$"olha eu so coder olha como meu icon é diferente"$',													'https://twitter.com/Nait0001',									'FFC0CB'],
 			['SlanMan',				'SlanMan',			'Composer',																											'https://twitter.com/man_slan',									'ffd505'],
 			['Arvarin',				'Arvarin',			'Composer and Chromatic Scale Maker',																				'https://twitter.com/arvarin',									'a200ff'],
@@ -134,6 +134,10 @@ class CreditsState extends MusicBeatState
 
 					FlxTween.tween(icon, {angleAdd: 20}, 0.2, {type: PINGPONG, ease: FlxEase.circOut});
 					FlxTween.tween(icon, {yAdd: icon.y - marginY}, 0.3, {type: PINGPONG, ease: FlxEase.backOut});
+
+					if (FlxG.random.bool(1))
+						FlxTween.tween(icon.scale, {x: 2}, 0.5, {type: PINGPONG, ease: FlxEase.circInOut});
+					
 				}
 
 				if(curSelected == -1) curSelected = i;

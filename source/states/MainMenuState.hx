@@ -21,7 +21,7 @@ import options.OptionsState;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.7.1'; //This is also used for Discord RPC
-	public static var brangeGuyVersion:String = '1.0'; 
+	public static var brangeGuyVersion:String = 'DEMO 1.1'; 
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -129,7 +129,9 @@ class MainMenuState extends MusicBeatState
 			}
 		}
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Brange Guy v" + brangeGuyVersion, 12);
+		
+		final checkDemo = brangeGuyVersion.toLowerCase().contains('demo') || brangeGuyVersion.toLowerCase().contains('beta');
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, 'Brange Guy ${!checkDemo ? 'v' : ''}$brangeGuyVersion', 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.ORANGE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);

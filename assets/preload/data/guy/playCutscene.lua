@@ -1,7 +1,7 @@
 playVideo = true;
 
 function onStartCountdown()
-	if not seenCutscene then
+	if not seenCutscene and isStoryMode then
 		if playVideo then --Video cutscene plays first
 			startVideo('brange'); --Play video file from "videos/" folder
 			playVideo = false;

@@ -1,29 +1,29 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				32,
 				-29
 			],
-			"anim": "danceLeft",
+			"loop": false,
 			"fps": 24,
-			"name": "danceLeft",
-			"indices": []
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "danceLeft"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				28,
 				-29
 			],
-			"anim": "danceRight",
+			"loop": false,
 			"fps": 24,
-			"name": "danceRight",
-			"indices": []
+			"anim": "danceRight",
+			"indices": [],
+			"name": "danceRight"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/gfliteralstanding",
 	"position": [
 		160,

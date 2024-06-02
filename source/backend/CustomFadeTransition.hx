@@ -24,6 +24,8 @@ class CustomFadeTransition extends MusicBeatSubstate {
 	private var leTween:FlxTween = null;
 	var transBlack:FlxSprite;
 	var transGradient:FlxSprite;
+
+	var fpsAjust:Int = 60;
 	public function new(duration:Float, isTransIn:Bool, gradientTrans:Bool = false) {
 		super();
 		this.durationTween = duration;
@@ -38,7 +40,12 @@ class CustomFadeTransition extends MusicBeatSubstate {
 			stickerGroup = new FlxSpriteGroup(0, 0, stickerTimes);
 			add(stickerGroup);
 
-			var stickerPerTime:Float = (duration / stickerTimes) / 100;
+			// trace(ClientPrefs.data.framerate);
+			
+			if (ClientPrefs.data != null) 
+				fpsAjust = ClientPrefs.data.framerate;
+
+			var stickerPerTime:Float = ((duration + (fpsAjust - 60)) / stickerTimes) / 100;
 
 
 			//trace(TitleState.spriteDataGroup[0] == null);
@@ -200,13 +207,21 @@ class CustomFadeTransition extends MusicBeatSubstate {
 	}
 
 	var deleteSprites:Bool = false;
+	var time:Float = 0;
 	override function update(elapsed:Float) {
 
 		if (!gradientTrans)
 		{
-			if (deleteSprites){
+			// Arruma
+			time += 1000;				
+			
+			if (deleteSprites && time > 1){
 				deleteStickers(10, durationTween);
+				time = 0;
 			}
+
+			trace(time);
+			
 
 			stickerGroup.forEachAlive(function(spr:FlxSprite) spr.centerOrigin() );
 		}

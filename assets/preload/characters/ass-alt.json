@@ -1,205 +1,205 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "idle",
-			"indices": [],
-			"name": "i"
+			"fps": 12,
+			"name": "i",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singUP",
-			"indices": [],
-			"name": "u"
+			"fps": 12,
+			"name": "u",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "missu"
+			"fps": 12,
+			"name": "missu",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "missd"
+			"fps": 12,
+			"name": "missd",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "r"
+			"fps": 12,
+			"name": "r",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "missr"
+			"fps": 12,
+			"name": "missr",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "missl"
+			"fps": 12,
+			"name": "missl",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singLEFT",
-			"fps": 12,
-			"name": "l0",
-			"indices": []
+			"indices": [],
+			"name": "l0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singDOWN",
-			"fps": 12,
-			"name": "d0",
-			"indices": []
+			"indices": [],
+			"name": "d0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singDOWN-alt",
-			"fps": 12,
-			"name": "altd",
-			"indices": []
+			"indices": [],
+			"name": "altd"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singUP-alt",
-			"fps": 12,
-			"name": "altu",
-			"indices": []
+			"indices": [],
+			"name": "altu"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singLEFT-alt",
-			"fps": 12,
-			"name": "altl",
-			"indices": []
+			"indices": [],
+			"name": "altl"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "singRIGHT-alt",
-			"fps": 12,
-			"name": "altr",
-			"indices": []
+			"indices": [],
+			"name": "altr"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "out",
-			"fps": 12,
-			"name": "out",
-			"indices": []
+			"indices": [],
+			"name": "out"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "firstDeath",
-			"fps": 12,
-			"name": "dies",
-			"indices": []
+			"indices": [],
+			"name": "dies"
 		},
 		{
+			"offsets": [
+				0,
+				0
+			],
 			"loop": true,
-			"offsets": [
-				0,
-				0
-			],
+			"fps": 12,
 			"anim": "deathLoop",
-			"fps": 12,
-			"name": "loop",
-			"indices": []
+			"indices": [],
+			"name": "loop"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 12,
 			"anim": "deathConfirm",
-			"fps": 12,
-			"name": "confirm",
-			"indices": []
+			"indices": [],
+			"name": "confirm"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle-alt",
+			"loop": false,
 			"fps": 12,
-			"name": "alti",
-			"indices": []
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "alti"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/ass",
 	"position": [
 		110,
